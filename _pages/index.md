@@ -2,26 +2,22 @@
 layout: defaults/page
 permalink: index.html
 narrow: true
-title: Welcome to Friday Theme
+title: Bem Vindo(a)!
 ---
 
-## What is it?
+Criei essa página com o intuito de compartilhar alguns de meus estudos e procurar, mesmo que de forma mínima, divulgar a Ciência. Os assuntos que tenho interesse em tratar nessa página são:
 
-{% include components/intro.md %}
+* Processamento de Sinais
+* Computação
+* Probabilidade e Estatística
+* Filosofia da Ciência
+* Astrofísica
 
-[Here's the full feature list and some quick examples of what it can do.]({{ site.baseurl}}{% link _pages/about.md %})
+Como o objetivo é a divulgação científica, procurarei, sempre que possível, não me prender muito aos aspectos mais técnicos. Quando isso ocorrer, procurarei deixar referências técnicas para quem quiser se aprofundar mais.
 
-## How to use it
+Caso queira entrar em contato comigo, por favor, me mande um e-mail em: renanbrotto@gmail.com
 
-This web site is the documentation for the theme and also provides examples of how you can use and modify it. TIt is built using Friday Theme directly from the [GitHub repo](https://github.com/sfreytag/friday-theme) and published to GitHub pages.
-
-[The documentation]({{ site.baseurl }}{% link list/projects.md %}) covers the basics of installing and using it, and is an example of how you could write documentation about your own projects.
-
-[The blog]({{ site.baseurl }}{% link list/posts.html %}) has a bunch of tips about how to use Friday Theme. These show how the blog works, including the tags. There's the three most-recent posts below included below.
-
-<hr />
-
-### Recent Posts
+### Textos Recentes
 
 {% for post in site.posts limit:3 %}
 {% include components/post-card.html %}

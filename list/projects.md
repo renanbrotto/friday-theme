@@ -1,5 +1,5 @@
 ---
-title: Documentation
+title: Projetos
 narrow: true
 permalink: list/projects.html
 show_profile: true
