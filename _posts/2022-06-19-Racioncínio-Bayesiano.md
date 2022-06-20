@@ -73,7 +73,19 @@ Vamos olhar para a equação acima de um modo um pouco diferente: $$P(T_0)$$ cor
 
 Notamos, então, que a probabilidade a posteriori consiste numa composição entre verossimilhanças: comparamos a verossimilhança entre os dados e a teoria $$T_0$$ com a verossimilhança dos mesmos dados com todas as demais teorias possíveis. Nossa crença na teoria $$T_0$$ deverá aumentar **somente** se a verossimilhança entre os dados e $$T_0$$ for alta **ao mesmo tempo que** a verossimilhança de  tais dados com outras explicações for baixa. Com a Regra de Bayes, buscamos, portanto, comparar a força de explicação da teoria $$T_0$$ com a força de todas as demais teorias possíveis.  
 
-<img src="2022/06/19/CaboDeGuerraTeorias.png" width="400" height="auto"  class="center" />
+<div class="card mb-3">
+    <img class="card-img-top" src="./img/CaboDeGuerraTeorias.png"/>
+    <div class="card-body bg-light">
+        <div class="card-text">
+            A Regra de Bayes mede a força de explicação da Teoria sob Teste com todas as demais Teorias Alternativas. Imagem feita pelo autor.
+        </div>
+    </div>
+</div>
+
+
+<!---
+<img src="img/CaboDeGuerraTeorias.png" width="400" height="auto"  class="center" />
+-->
 
 <!---
 ![A Regra de Bayes mede a força de explicação da Teoria sob Teste com todas as demais Teorias Alternativas. Imagem feita pelo autor.](2022/06/19/CaboDeGuerraTeorias.png)
